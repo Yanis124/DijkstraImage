@@ -1,13 +1,17 @@
-## Projet - trouver le chemin le plus court entre deux pixels dans une image
+# Project - Find the Shortest Path Between Two Pixels in an Image
 
-**Commandes :**
-- vous pouvez l'éxecuter depuis n'importe quel répertoire : `cd ~/ALGO/Projet && python3 main.py`
+## Commands:
+- You can execute it from any directory: `cd ~/ALGO/Projet && python3 main.py`
 
-**Fonctionnement :**
-Le programme permet à l'utilisateur de trouver le chemin le plus court entre deux pixels d'une image en utilisant l'algorithme dijkstra .Pour trouver la distance entre deux pixels on calcule la norme euclidi-enne de la différence entre les valeurs RGB des deux pixels.
+## Functionality:
+The program allows the user to find the shortest path between two pixels in an image using the Dijkstra algorithm. To find the distance between two pixels, the Euclidean norm of the difference between the RGB values of the two pixels is calculated.
 
-1. Il y a un dossier `Image` ou vous pouvez inserer une image sinon vous pouvez travailler sur l'image existante par défaut. 
-2. Le programme demande à l'utilisateur de sélectionner deux points en cliquant sur l'image
-3. Un boutton `trouver le chemin` s'affichera à l'utilisateur 
-4. Une fois que l'utilisateur clique sur le boutton, l'algorithme dijkstra s'éxecute et trace le chemin le plus court en le marquant en vert
-5. l'utilisateur pourra recommencer cette opération en cliquant sur le boutton `recommencer`.
+1. There is an `Image` folder where you can insert an image, or you can work on the default image provided.
+2. The program prompts the user to select two points by clicking on the image.
+3. A button labeled `Find Path` is displayed to the user.
+4. Once the user clicks on the button, the Dijkstra algorithm executes and traces the shortest path, marking it in green.
+5. The user can repeat this operation by clicking on the `Reset` button.
+
+## Description:
+The program allows the user to find the shortest path between two pixels in an image. It provides a user-friendly interface for selecting pixels and visualizing the shortest path. The implementation is based on the Dijkstra algorithm. The program requires Python and the Tkinter library for the graphical user interface.
+
